@@ -881,12 +881,16 @@
                 <!-- /Extras -->
 
                 <!-- Search -->
-                <li class="nav-item <?= $this->uri->segment(1) == 'simple' ||
+                <li class="nav-item <?= $this->uri->segment(1) == 'simples' ||
                                         $this->uri->segment(1) == 'enhanced' ||
+                                        $this->uri->segment(1) == 'simple-results' ||
+                                        $this->uri->segment(1) == 'enhanced-results' ||
                                         $this->uri->segment(1) == '' ? 'menu-open' : '' ?>">
 
-                    <a href="#" class="nav-link <?= $this->uri->segment(1) == 'simple' ||
+                    <a href="#" class="nav-link <?= $this->uri->segment(1) == 'simples' ||
                                                     $this->uri->segment(1) == 'enhanced' ||
+                                                    $this->uri->segment(1) == 'simple-results' ||
+                                                    $this->uri->segment(1) == 'enhanced-results' ||
                                                     $this->uri->segment(1) == '' ? 'active' : '' ?>">
                         <i class="nav-icon fas fa-search"></i>
                         <p>
@@ -898,8 +902,8 @@
                     <ul class="nav nav-treeview">
 
                         <li class="nav-item">
-                            <a href="simple" class="nav-link    <?= $this->uri->segment(1) == 'simple' ||
-                                                                    $this->uri->segment(1) == '' ? 'active' : '' ?>">
+                            <a href="simples" class="nav-link    <?= $this->uri->segment(1) == 'simples' ||
+                                                                        $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Simple Search</p>
                             </a>
@@ -910,6 +914,22 @@
                                                                     $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Enhanced</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="simple-results" class="nav-link    <?= $this->uri->segment(1) == 'simple-results' ||
+                                                                            $this->uri->segment(1) == '' ? 'active' : '' ?>">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Simple Result</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="enhanced-results" class="nav-link  <?= $this->uri->segment(1) == 'enhanced-results' ||
+                                                                            $this->uri->segment(1) == '' ? 'active' : '' ?>">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Enhanced Result</p>
                             </a>
                         </li>
 

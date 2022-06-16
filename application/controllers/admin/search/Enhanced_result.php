@@ -6,6 +6,6 @@ class Enhanced_result extends CI_Controller
     public function index()
     {
         $data['title'] = "Enhanced Result | Administrator";
-        $this->load->view('admin/search/v_enanched_result', $data);
+        $this->load->view('admin/search/v_enhanced-results', $data);
     }
 }

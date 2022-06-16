@@ -25,7 +25,7 @@
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="../../index3.html" class="nav-link">Home</a>
+          <a href="dashboard" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
           <a href="#" class="nav-link">Contact</a>
@@ -66,7 +66,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <img src="<?php echo base_url().  'assets/dist/img/user1-128x128.jpg'?>" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Brad Diesel
@@ -82,7 +82,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img src="<?php echo base_url().  'assets/dist/img/user8-128x128.jpg'?>" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     John Pierce
@@ -98,7 +98,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img src="<?php echo base_url().  'assets/dist/img/user3-128x128.jpg'?>" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Nora Silvester
@@ -262,7 +262,7 @@
                   <div class="row mt-4">
                     <div class="col-sm-4">
                       <div class="position-relative">
-                        <img src="../../dist/img/photo1.png" alt="Photo 1" class="img-fluid">
+                        <img src="<?php echo base_url().  'assets/dist/img/photo1.png'?>" alt="Photo 1" class="img-fluid">
                         <div class="ribbon-wrapper ribbon-lg">
                           <div class="ribbon bg-success text-lg">
                             Ribbon
@@ -272,7 +272,7 @@
                     </div>
                     <div class="col-sm-4">
                       <div class="position-relative">
-                        <img src="../../dist/img/photo2.png" alt="Photo 2" class="img-fluid">
+                        <img src="<?php echo base_url().  'assets/dist/img/photo2.png'?>" alt="Photo 2" class="img-fluid">
                         <div class="ribbon-wrapper ribbon-xl">
                           <div class="ribbon bg-warning text-lg">
                             Ribbon
@@ -282,7 +282,7 @@
                     </div>
                     <div class="col-sm-4">
                       <div class="position-relative" style="min-height: 180px;">
-                        <img src="../../dist/img/photo3.jpg" alt="Photo 3" class="img-fluid">
+                        <img src="<?php echo base_url().  'assets/dist/img/photo3.jpg'?>" alt="Photo 3" class="img-fluid">
                         <div class="ribbon-wrapper ribbon-xl">
                           <div class="ribbon bg-danger text-xl">
                             Ribbon

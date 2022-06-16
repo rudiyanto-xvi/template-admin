@@ -6,6 +6,6 @@ class Enhanced extends CI_Controller
     public function index()
     {
         $data['title'] = "Enhanced | Administrator";
-        $this->load->view('admin/search/v_enanched', $data);
+        $this->load->view('admin/search/v_enhanced', $data);
     }
 }

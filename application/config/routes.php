@@ -103,10 +103,10 @@ $route['sliders'] = 'admin/ui/sliders';
 $route['timeline'] = 'admin/ui/timeline';
 
 /* Search Pages */
-$route['enhanced-result'] = 'admin/search/enhanced_result';
+$route['enhanced-results'] = 'admin/search/enhanced_result';
 $route['enhanced'] = 'admin/search/enhanced';
-$route['simple-result'] = 'admin/search/simple_result';
-$route['simple'] = 'admin/search/simple';
+$route['simple-results'] = 'admin/search/simple_result';
+$route['simples'] = 'admin/search/simple';
 
 /* Layout Pages */
 $route['boxed'] = 'admin/layout/boxed';
@@ -145,6 +145,9 @@ $route['recover-password-v2'] = 'admin/examples/recover_password_v2';
 $route['recover-password'] = 'admin/examples/recover_password';
 $route['register-v2'] = 'admin/examples/register_v2';
 $route['register'] = 'admin/examples/register';
+
+/* iframe pages */
+$route['iframe'] = 'admin/iframe/iframe';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
