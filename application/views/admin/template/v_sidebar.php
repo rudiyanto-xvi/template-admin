@@ -379,7 +379,7 @@
 
                         <li class="nav-item">
                             <a href="advanced" class="nav-link  <?= $this->uri->segment(1) == 'advanced' ||
-                                                                    $this->uri->segment(1) == '' ? 'active' : '' ?>">">
+                                                                    $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Advanced Elements</p>
                             </a>
@@ -387,7 +387,7 @@
 
                         <li class="nav-item">
                             <a href="editors" class="nav-link   <?= $this->uri->segment(1) == 'editors' ||
-                                                                    $this->uri->segment(1) == '' ? 'active' : '' ?>">">
+                                                                    $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Editors</p>
                             </a>
@@ -395,7 +395,7 @@
 
                         <li class="nav-item">
                             <a href="validation" class="nav-link    <?= $this->uri->segment(1) == 'validation' ||
-                                                                        $this->uri->segment(1) == '' ? 'active' : '' ?>">">
+                                                                        $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Validation</p>
                             </a>
