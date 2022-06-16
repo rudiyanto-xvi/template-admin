@@ -101,7 +101,7 @@
                                         $this->uri->segment(1) == 'collapsed-sidebar' ||
                                         $this->uri->segment(1) == 'fixed-footer' ||
                                         $this->uri->segment(1) == 'fixed-sidebar' ||
-                                        $this->uri->segment(1) == 'fixed-sidebar_custom' ||
+                                        $this->uri->segment(1) == 'fixed-sidebar-custom' ||
                                         $this->uri->segment(1) == 'fixed-topnav' ||
                                         $this->uri->segment(1) == 'topnav-sidebar' ||
                                         $this->uri->segment(1) == 'topnav' ||
@@ -111,7 +111,7 @@
                                                     $this->uri->segment(1) == 'collapsed-sidebar' ||
                                                     $this->uri->segment(1) == 'fixed-footer' ||
                                                     $this->uri->segment(1) == 'fixed-sidebar' ||
-                                                    $this->uri->segment(1) == 'fixed-sidebar_custom' ||
+                                                    $this->uri->segment(1) == 'fixed-sidebar-custom' ||
                                                     $this->uri->segment(1) == 'fixed-topnav' ||
                                                     $this->uri->segment(1) == 'topnav-sidebar' ||
                                                     $this->uri->segment(1) == 'topnav' ||
@@ -128,7 +128,7 @@
 
                         <li class="nav-item">
                             <a href="top-nav" class="nav-link    <?= $this->uri->segment(1) == 'topnav' ||
-                                                                    $this->uri->segment(1) == '' ? 'active' : '' ?>">
+                                                                        $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Top Navigation</p>
                             </a>
@@ -162,7 +162,7 @@
                             <a href="fixed-sidebar-custom" class="nav-link  <?= $this->uri->segment(1) == 'fixed-sidebar-custom' ||
                                                                                 $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Fixed Sidebar <small>+ Custom Area</small></p>
+                                <p><small>Fixed Sidebar + Custom Area</small></p>
                             </a>
                         </li>
 
@@ -614,7 +614,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="project-edit" class="nav-link  <?= $this->uri->segment(1) == 'project-add' ||
+                            <a href="project-edit" class="nav-link  <?= $this->uri->segment(1) == 'project-edit' ||
                                                                         $this->uri->segment(1) == '' ? 'active' : '' ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Project Edit</p>

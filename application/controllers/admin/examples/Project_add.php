@@ -6,6 +6,6 @@ class Project_add extends CI_Controller
     public function index()
     {
         $data['title'] = "Project Add | Administrator";
-        $this->load->view('admin/examples/v_project_add', $data);
+        $this->load->view('admin/examples/v_project-add', $data);
     }
 }

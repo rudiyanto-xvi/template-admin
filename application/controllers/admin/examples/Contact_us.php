@@ -6,6 +6,6 @@ class Contact_us extends CI_Controller
     public function index()
     {
         $data['title'] = "Contact Us | Administrator";
-        $this->load->view('admin/examples/v_contact_us', $data);
+        $this->load->view('admin/examples/v_contact-us', $data);
     }
 }

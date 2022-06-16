@@ -6,6 +6,6 @@ class Project_detail extends CI_Controller
     public function index()
     {
         $data['title'] = "Project Detail | Administrator";
-        $this->load->view('admin/examples/v_project_detail', $data);
+        $this->load->view('admin/examples/v_project-detail', $data);
     }
 }

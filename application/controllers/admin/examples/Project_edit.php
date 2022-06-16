@@ -6,6 +6,6 @@ class Project_edit extends CI_Controller
     public function index()
     {
         $data['title'] = "Project Edit | Administrator";
-        $this->load->view('admin/examples/v_project_edit', $data);
+        $this->load->view('admin/examples/v_project-edit', $data);
     }
 }
